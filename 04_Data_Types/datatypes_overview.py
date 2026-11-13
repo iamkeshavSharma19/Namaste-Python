@@ -9,6 +9,7 @@ print(username[-1]) #?When we put negative sign it starts counting from the back
 print(username[1:3]); #?start from index 1 but donot include 3
 mylist = [123, "chai", 3.14]
 print(mylist)
+print(id(mylist))
 print(mylist[0])
 print(mylist[-1])
 myDic = {
