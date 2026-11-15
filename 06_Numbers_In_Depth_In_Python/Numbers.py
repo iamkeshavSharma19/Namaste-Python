@@ -29,4 +29,37 @@ print(x  < y and y  < z) #True
 print(1 == 2  < 3) #False
 print(1 == 2 and 2  < 3) #False
 
+import math
+
+print(math.floor(3.5))
+print(math.floor(-3.5))
+print(math.floor(3.9))
+# ? trunc gives us that value which is more towards the Zero.
+print(math.trunc(2.8)) # 2.
+print(math.trunc(-2.8)) # -2
+
+import random
+
+# ? random gives any random number between 0 and 1
+print(random.random())
+
+
+l1 = ["lemon", "masala", "ginger", "mint"]
+print(random.choice(l1))
+
+#? You can also shuffle this list in a random order using the random method
+
+random.shuffle(l1)
+
+print(l1)
+
+# ! Python sometimes give wrong answers while doing zero precision calculation
+
+print((0.1 + 0.1 + 0.1) - 0.3)
+
+from decimal import Decimal
+
+res = Decimal("0.1") + Decimal("0.1") + Decimal("0.1") - Decimal("0.3")
+
+print(res)
 
