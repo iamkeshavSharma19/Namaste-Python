@@ -69,3 +69,24 @@ print(" ".join(product_companies))
 print("-".join(product_companies))
 print("**".join(product_companies))
 print(", ".join(product_companies))
+
+#?How to print each character of the string
+for letter in name:
+  print(letter)
+
+dialogue = "He said, \"Harry Potter is awesome\" "
+print(dialogue)
+
+# path = "c:\user\pwd"
+# print(path) #!SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \uXXXX escape
+
+#!There are 2 ways of solving this issue ==> one is use '//' and the other is use r"", donot put \ at the end in this case
+path = r"c:\user\pwd"
+print(path)
+path = "c:\\user\\pwd"
+print(path)
+
+
+print("Potter" in name)
+print("P" in name)
+print("Keshav" in name)
