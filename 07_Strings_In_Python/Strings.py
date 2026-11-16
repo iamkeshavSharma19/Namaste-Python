@@ -58,3 +58,14 @@ quantity = 2
 order = "I order {} cups of {} chai"
 print(order.format(quantity, chai_type))
 
+#!CONVERTING LIST INTO THE STRING.
+product_companies = ["Microsoft", "Uber", "Bloomberg", "Adobe", "ByteDance", "Oracle"]
+
+print(product_companies)
+print("".join(product_companies))
+#?join doesnot changes the original list
+print(product_companies)
+print(" ".join(product_companies))
+print("-".join(product_companies))
+print("**".join(product_companies))
+print(", ".join(product_companies))
