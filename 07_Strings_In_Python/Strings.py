@@ -46,3 +46,15 @@ print(second_friend.find("e"))
 #! If there is no word or a string which exists then It returns -1.
 print(second_friend.find("z"))
 #print(second_friend.find()) #!TypeError: find() takes at least 1 argument (0 given)
+
+chai = "Masala Chai Chai Chai"
+print(chai.count("Chai"))
+print(chai.count("i"))
+print(chai.count("Keshav"))
+
+#? Adding the Placeholders inside the String.
+chai_type = "Masala"
+quantity = 2
+order = "I order {} cups of {} chai"
+print(order.format(quantity, chai_type))
+
