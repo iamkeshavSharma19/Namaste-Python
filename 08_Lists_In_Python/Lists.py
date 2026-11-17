@@ -31,3 +31,16 @@ print(id(companies))
 print(tech_mahindra)
 print(id(tech_mahindra))
 
+#? Slicing always make a new list object.
+print("________________________________________________")
+#! Every time we will perform slicing, everytime python makes a new List Object.The memory address of all these 3 will be different.Whenever we perform slicing and the slicing syntax is on the right hand side of equality,then evertime a new list object will be made inside the memory,original list will not change.
+print(id(companies[1:2]))
+print(id(companies[1:2]))
+print(id(companies[1:2]))
+
+a = companies[1:2]
+print(id(a))
+b = companies[1:2]
+print(id(b))
+c = companies[1:2]
+print(id(c))

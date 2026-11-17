@@ -194,3 +194,5 @@ print(tech_mahindra)             # ['Tech Mahindra'], photocopy par koi asar nah
 > Slice **read** karo toh copy milti hai, slice par **assign** karo toh original list edit hoti hai.
 
 Same logic `del companies[1:2]` par bhi lagta hai: yeh bhi original list se element hata deta hai, koi copy nahi banata.
+
+
