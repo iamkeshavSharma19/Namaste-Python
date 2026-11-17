@@ -1,6 +1,9 @@
 name = "Brock Lesnar"
 print("Brock Lesnar")
 
+# name[0] = "D"
+# print(name)
+
 slice_name = name[0:5]
 print(id(name))
 print(id(slice_name))
