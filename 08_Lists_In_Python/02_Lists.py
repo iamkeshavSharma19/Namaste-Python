@@ -68,3 +68,15 @@ k = [1, 2]
 print(id(k))
 k = [1, 2]
 print(id(k))
+
+l = "Keshav"
+print(id(l))
+l = "Keshav"
+print(id(l))
+
+
+
+#?LISTS COMPREHENSION
+squared_nums = [x**2 for x in range(10)]
+
+print(squared_nums)
