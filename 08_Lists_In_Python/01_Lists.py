@@ -19,6 +19,8 @@ print(id(slice_companies))
 
 print("_______________________________________________")
 
+
+
 # print(companies[1:2]) #?["Tech Mahindra"]
 
 tech_mahindra = companies[1:2]
