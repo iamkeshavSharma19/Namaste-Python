@@ -80,3 +80,21 @@ print(id(l))
 squared_nums = [x**2 for x in range(10)]
 
 print(squared_nums)
+
+#!THESE 3 LISTS WILL HAVE SAME MEMORY REFERENCE!
+print(id([1, 2, 3]))
+print(id([1, 2, 3]))
+print(id([1, 2, 3]))
+
+#!THESE 2 ADDRESSES WILL BE SAME.
+q = "hi"
+print(id(q))
+q = "hi"
+print(id(q))
+
+
+#!THESE 2 ADDRESSES WILL BE DIFFERENT
+q1 = [1]
+print(id(q1))
+q1 = [1]
+print(id(q1))
