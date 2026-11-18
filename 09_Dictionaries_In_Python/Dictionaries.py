@@ -23,3 +23,12 @@ user_info["age"] = 20
 print(user_info)
 #!DICTIONARY IS MUTABLE,ON THE SAME MEMORY LOCATION FIELDS WILL CHANGE.
 print(id(user_info))
+
+#&Looping on the items of the Dictionary.
+#&Here all the keys of the dictionary would be printed.
+for key in user_info:
+  print(key)
+
+#~For printing the values
+for info in user_info:
+  print(info, user_info[info])
