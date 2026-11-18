@@ -65,3 +65,14 @@ print(user_info)
 del user_info["location"]
 print(user_info)
 
+#?Copying the dictionary
+user_info["location"] = "Noida"
+user_info["company"] = "Capgemini"
+
+print(user_info)
+
+user_info_copy = user_info.copy()
+
+print(id(user_info))
+print(id(user_info_copy))
+
