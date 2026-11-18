@@ -50,3 +50,18 @@ user_info["location"] = "Noida"
 user_info["company"] = "Capgemini"
 
 print(user_info)
+
+#^SUPPOSE I WANT TO REMOVE AGE FROM MY DICTIONARY
+print(user_info.pop("age"))
+print(user_info)
+
+
+#?Suppose If I want to remove the last item from my dictionary
+print(user_info.popitem())
+print(user_info)
+
+
+#?del keyword removes the item from the memory location as well.
+del user_info["location"]
+print(user_info)
+
