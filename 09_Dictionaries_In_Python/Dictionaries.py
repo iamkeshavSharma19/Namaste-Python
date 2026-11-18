@@ -41,3 +41,12 @@ for key, value in user_info.items():
 
 if "firstName" in user_info:
   print("firstName is present")
+
+print(len(user_info))
+
+
+#!ADDING ONE MORE ITEM INSIDE THE DICTIONARY.
+user_info["location"] = "Noida"
+user_info["company"] = "Capgemini"
+
+print(user_info)
