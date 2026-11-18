@@ -76,3 +76,14 @@ user_info_copy = user_info.copy()
 print(id(user_info))
 print(id(user_info_copy))
 
+squared_num = {x:x**2 for x in range(6)}
+
+print(squared_num)
+
+#? Constructing a New Dictionary
+keys = ["Masala", "Ginger", "Lemon"]
+default_value = "Delicious"
+
+new_dict = dict.fromkeys(keys, default_value)
+
+print(new_dict)
