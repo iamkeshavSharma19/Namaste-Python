@@ -39,3 +39,5 @@ for info in user_info:
 for key, value in user_info.items():
   print(key, value)
 
+if "firstName" in user_info:
+  print("firstName is present")
