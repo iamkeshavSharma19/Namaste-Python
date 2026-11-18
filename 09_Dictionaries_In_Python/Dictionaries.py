@@ -32,3 +32,10 @@ for key in user_info:
 #~For printing the values
 for info in user_info:
   print(info, user_info[info])
+
+
+#*OTHER WAY OF LOOPING === specially if you are iterating on the dictionaries.
+#* (key, value) === item.
+for key, value in user_info.items():
+  print(key, value)
+
