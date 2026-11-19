@@ -87,3 +87,5 @@ default_value = "Delicious"
 new_dict = dict.fromkeys(keys, default_value)
 
 print(new_dict)
+
+#!DEEP COPY V/S SHALLOW COPY IN PYTHON LEFT, TODO 
